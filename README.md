@@ -3,7 +3,9 @@
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
 ## 1. Description
-This repository implements **pansharpening** and **multispectral images fusion** algorithms based on the wavelet transform calculated by the à trous algorithm, using Python. The images used are downloaded from [Google Earth Engine](https://developers.google.com/earth-engine/datasets/), **pansharpening** is applied to [Landsat 8 raw images](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C01_T1), and **multispectral images fusion** is performed over [Landsat 8 surface reflectance images](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C01_T1_SR) and [Sentinel 2 surface reflectance images](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_SR).
+This repository implements **pansharpening** and **multispectral images fusion** algorithms based on the wavelet transform calculated by the à trous algorithm, using Python. The images used are downloaded from [Google Earth Engine](https://developers.google.com/earth-engine/datasets/).
+
+**Pansharpening** is applied to [Landsat 8 raw images](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C01_T1), and **multispectral images fusion** is performed over [Landsat 8 surface reflectance images](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C01_T1_SR) and [Sentinel 2 surface reflectance images](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_SR).
 
 ## 2. Usage
 To execute the [jupyter notebooks](https://jupyter.org/), an environment including the dependencies is offered. This environment can be found in [image_fusion.yml](https://github.com/JiahaoJZ/Image_fusion/blob/master/image_fusion.yml).
